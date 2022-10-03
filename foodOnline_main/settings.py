@@ -127,6 +127,8 @@ STATIC_URL = '/static/'
 STATIC_ROOT=BASE_DIR / 'static'
 STATICFILES_DIRS=['foodOnline_main/static']
 # Default primary key field type
+MEDIA_URL='/media/'
+MEDIA_ROOT=BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
